@@ -6,7 +6,7 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import kotlinx.android.parcel.Parcelize
-
+//DATA Class
 @Parcelize
 @Entity(tableName = "User Info")
  data class Data(
