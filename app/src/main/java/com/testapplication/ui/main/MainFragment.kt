@@ -6,6 +6,7 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
+import android.provider.Settings
 import android.telephony.PhoneNumberUtils
 import android.text.TextUtils
 import android.view.LayoutInflater
@@ -48,8 +49,8 @@ class MainFragment : Fragment(), TestAdapter.IndexItemCallback {
 
         }
         cvWhatsapp.setOnClickListener {
-
-            openWhatsAppChat(requireActivity(),"8010606065")
+        startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS))
+            //openWhatsAppChat(requireActivity(),"8010606065")
         }
 
     }

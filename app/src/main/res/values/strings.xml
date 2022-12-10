@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Vikas</string>
+    <string name="description">vikas test app description</string>
 </resources>
